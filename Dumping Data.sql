@@ -1,3 +1,5 @@
+  use Library_Management;
+  
  /*========================= POPULATING THE TABLES =========================*/
 
  insert into staff
