@@ -49,7 +49,29 @@ role. So basically this helps the librarian to keep a record of books, borrowers
 | borrower_date | date | None |
 | return_date | date | None | 
 | return_status | Varchar (100) |None |
-
+#### borrower_detail
+| Attribute | Data type | Constraint |
+|:-:|:-:|:-:|
+| borrower_id | int | Foreign Key |
+| borrower_name | Varchar (100) | None | 
+| borrower_address | Varchar (200) | None |
+| borrower_phone | Varchar (50) | none |
+#### ebook
+|Attribute | Data type | Constraint | 
+|:-:|:-:|:-:|
+| ebook-title | Varchar (100) | Primary |
+| ebook_price | Varchar (10) | None |
+| Ebook_publisher_name | Varchar(100) | None | 
+| Ebook_author_name | Varchar(100) | None |
+#### ebook_detail
+|Attribute | Data type | Constraint | 
+|:-:|:-:|:-:|
+| ebook_title | Varchar (100) | Foreign Key | 
+| ebook_author_name | Varchar (100) | None| 
+| ebook_publisher_name | Varchar (100) | None | 
+| ebook_publisher_address | Varchar (200) | None | 
+| ebook_publisher_phone | Varchar (50) | None |
+| ebook_publisher_email | Varchar(50) | None |
 
 ## Dumping Data
 #### staff
