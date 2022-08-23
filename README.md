@@ -23,6 +23,7 @@ role. So basically this helps the librarian to keep a record of books, borrowers
 
 ## Dumping Data
 | employee_id | employee_name | employee_type |
+|:-:|:-:|:-:|
 | 1 | Viladmir Putin | Manager |
 | 2 |'David Bombal | Librarian |
 | 3 | Jack Reacher | Librarian |
