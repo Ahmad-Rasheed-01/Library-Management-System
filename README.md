@@ -75,7 +75,7 @@ role. So basically this helps the librarian to keep a record of books, borrowers
 
 <br>
 ## Dumping Data
-#### **staff**
+#### staff
 | employee_id | employee_name | employee_type |
 |:-:|:-:|:-:|
 | 1 | Viladmir Putin | Manager |
