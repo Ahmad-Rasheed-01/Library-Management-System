@@ -20,3 +20,15 @@ role. So basically this helps the librarian to keep a record of books, borrowers
 | employee_name | Varchar (50) | None |
 | employee_address | Varchar(100) | None |
 | employee_phone | Varchar (50) | None |
+
+## Dumping Data
+| employee_id | employee_name | employee_type |
+| 1 | Viladmir Putin | Manager |
+| 2 |'David Bombal | Librarian |
+| 3 | Jack Reacher | Librarian |
+| 4 | Scarlet Johnson | Library Assistant | 
+| 5 | Chris Evans | Pages |
+| 6 | Tom Holland | Pages |
+| 7 | Nancy Finland | Accounting and Finance |
+| 8 | Clark Kent | Security Services |
+| 9 | Jack Hammer | Security Services | 
