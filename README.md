@@ -172,7 +172,17 @@ role. So basically this helps the librarian to keep a record of books, borrowers
 | Atomic Habits | 31$ | Hachette | James Clear | 
 | The Body Keeps the Score | 21$ | Harper Collins | Bessel van der Kolk |
 | Sparring Partners | 4$ | Macmillan | John Grisham |
-
+#### ebook_detail
+| ebook_title | ebook_author_name | ebook_publisher_name | ebook_publisher_address | ebook_publisher_phone | ebook_publisher_email |
+|:-:|:-:|:-:|:-:|:-:|:-:|
+| Verity | Colleen Hoover | Pearson | 8517 Excelsior, United States | +1-333-312-3215 | pearsonpublications@gmail.com | 
+| It Ends with Us | Delia Owens | Penguin | 1745 Broadway, 15-3 New York | +1-234-322-5623 | penguinbooks@gmail.com | 
+| Where the Crawdads Sing | Taylor Jenkins Reid | Hachette Book Group. | 1290 6th Ave, New York, NY 10104,United States | +1-212-364-1100 | hachette.books@hbgusa.com | 
+| The Seven Husbands of Evelyn Hugo | James Clear | Harper Collins| New York, United States | +1-800-242-7737 | orders@harpercollins.com |
+| Ugly Love | Bessel van der Kolk | Macmillan | New York, United States | +1-888-330-8477 | contact@macmillan.org.uk | 
+| Atomic Habits | John Grisham | USL | United States of Lidr | +1-233-243-5433 | uslpublications@gmail.com | 
+| The Body Keeps the Score | Amy Tan | RELX Group | Queens Road, Brazil | +1-880-343-5642 | relxgroup@gmail.com | 
+| Sparring Partners | Atul Gawande | Fiction House Publishers | 68 Mozang Rd, Lahore, Pakistan  | +42-342-321-4333 | orders@fiction.com |
 
 
 
