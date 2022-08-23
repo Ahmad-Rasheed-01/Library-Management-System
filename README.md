@@ -87,3 +87,72 @@ role. So basically this helps the librarian to keep a record of books, borrowers
 | 7 | Nancy Finland | Accounting and Finance |
 | 8 | Clark Kent | Security Services |
 | 9 | Jack Hammer | Security Services | 
+
+#### employee_details
+| Employee_id | Employee_name | Employee_address | Employee_phone | 
+|:-:|:-:|:-:|:-:|
+| 1 | Viladmir Putin | Karachi, Pakistan | +92-300-345-6538 |
+| 2 David Bombal | Lahore, Pakistan | +92-344-345-6783 |
+| 3 | Jack Reacher | Faisabad, Pakistan | +92-305-867-6453 |
+| 4 | Scarlet Johnson | Rawalpindi, Pakistan | +92-311-285-6532 |
+| 5 | Chris Evans | Lahore, Pakistan | +92-315-564-9888 |
+| 6 | Tom Holland | Islamabad, Pakistan | +92-301-768-8879 | 
+| 7 | Nancy Finland | Quetta, Pakistan | +92-333-689-4532 |
+| 8 | Clark Kent | Lahore, Pakistan | +92-300-768-8822 | 
+| 9 | Jack Hammer | Lahore, Pakistan | +92-312-793-9874 |
+#### publisher
+| publisher_name | publisher_address | publisher_phone | publisher_email | 
+|:-:|:-:|:-:|:-:|
+| Auraq Publications | BS-6, Satti Plaza, Stadium Rd, Rawalpindi,Pakistan | +92-300-0571-530 |  auraqpublications@gmail.com |
+| Fact Publications | 14/B 2nd Floor Ali Plaza Temple Road, Lahore, Pakistan | +92-42-3524-0076 | publications.fact711@gmail.com | 
+| Daniyal Publisher | Lar,38 Ghazni St, Urdu Bazar Lahore, Pakistan | +92-320-7660-736 |  maktabahdanyal786@gmail.com | 
+| Jinnah Group of Publications | 5# Stop, Kahna Nau, Lahore, Pakistan | +92-300-151-5777 | jinnahpublications1@gmail.com |
+#### author
+| author_name | author_dob | author_nationality | 
+|:-:|:-:|:-:|
+| Jane Austen | 2001-01-22 | Netherland |
+| William Blake | 1981-12-19 | Pakistan |
+| George Eliot | 1983-08-22 | Russia |
+| John Milton | 1971-04-09 | China |
+| Harold Pinter | 1943-07-23 | Pakistan |
+| Charles Dickens | 1981-09-01 | USL |
+| Samuel Taylor | 1987-09-24 | Wakanda |
+#### book
+| book_id | book_title | publisher_name | author_name | book_price | book_publish_year | 
+|:-:|:-:|:-:|:-:|:-:|:-:|
+| 1910 | The Green Mile | Fact Publications | Jane Austen | 19$ | 2012 |
+| 1911 | Dune | Fact Publications | Jane Austen | 10$ | 2001 |
+| 1912 | The Name of the Wind | Fact Publications | Jane Austen | 32$ | 2001 |
+| 1913 | The Hobbit | Sultan Publications | William Blake | 5$ | 2007 |
+| 1914 | A Wise Mans Fear | Sultan Publications | William Blake | 21$ | 2011 |
+| 1915 | Eragon | Sultan Publications | William Blake | 7$ | 2007 |
+| 1916 | Harry Potter | Paramount Books | George Eliot | 3$ | 2009 |
+| 1917 | Hard Boiled Wonderland | Paramount Books | George Eliot | 11$ | 2015 |
+| 1918 | The Giving Tree | Paramount Books | George Eliot | 22$ | 2021 |
+| 1919 | The Hitchhikers Guide to the Galaxy | Medical Channel Journal | John Milton | 14$ | 2022 |
+| 1920 | Brave New World | Medical Channel Journal | John Milton | 6$ | 2001 | 
+| 1921 | Fight Club | Medical Channel Journal | John Milton | 5$ | 2019 |
+| 1922 | The Princess Bride | Auraq Publications | Harold Pinter | 17$ | 2013 |
+| 1923 | Holes | Auraq Publications | Harold Pinter | 2$ | 2016 |
+| 1924 | The Fellowship of the Ring | Auraq Publications | Harold Pinter | 8$ | 2002 
+| 1925 | Game of Thrones | Jinnah Group of Publications | Charles Dickens | 13$ | 2016 |
+| 1926 | The Lost Tribe | Jinnah Group of Publications | Charles Dickens | 12$ | 2009 |
+| 1927 | Invisible Man | Jinnah Group of Publications | Charles Dickens | 4$ | 2008 |
+| 1928 | Don Quixote | Daniyal Publisher | Samuel Taylor | 7$ | 2014 | 
+| 1929 | Beloved | Daniyal Publisher | Samuel Taylor | 23$ |2018 |
+| 1930 | A Promised Land | Daniyal Publisher | Samuel Taylor | free | 2021 | 
+#### borrowing_detail
+borrower_id borrowing_date due_date return_status 
+2001 2022-01-25 2022-05-25 Not Returned 
+2002 2022-03-01 2022-04-01 Returned 
+2003 2022-01-22 2022-04-25 Returned 
+2004 2022-05-09 2022-06-05 Returned 
+2005 2022-03-19 2022-07-01 Not Returned 
+2006 2022-02-22 2022-04-29 Not Returned 
+2007 2022-04-09 2022-06-25 Returned 
+
+
+
+
+
+
