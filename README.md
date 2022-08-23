@@ -142,16 +142,36 @@ role. So basically this helps the librarian to keep a record of books, borrowers
 | 1929 | Beloved | Daniyal Publisher | Samuel Taylor | 23$ |2018 |
 | 1930 | A Promised Land | Daniyal Publisher | Samuel Taylor | free | 2021 | 
 #### borrowing_detail
-borrower_id borrowing_date due_date return_status 
-2001 2022-01-25 2022-05-25 Not Returned 
-2002 2022-03-01 2022-04-01 Returned 
-2003 2022-01-22 2022-04-25 Returned 
-2004 2022-05-09 2022-06-05 Returned 
-2005 2022-03-19 2022-07-01 Not Returned 
-2006 2022-02-22 2022-04-29 Not Returned 
-2007 2022-04-09 2022-06-25 Returned 
-
-
+| borrower_id | borrowing_date | due_date | return_status | 
+|:-:|:-:|:-:|:-:|
+| 2001 | 2022-01-25 | 2022-05-25 | Not Returned |
+| 2002 | 2022-03-01 | 2022-04-01 | Returned |
+| 2003 | 2022-01-22 | 2022-04-25 | Returned |
+| 2004 | 2022-05-09 | 2022-06-05 | Returned |
+| 2005 | 2022-03-19 | 2022-07-01 | Not Returned |
+| 2006 | 2022-02-22 | 2022-04-29 | Not Returned |
+| 2007 | 2022-04-09 | 2022-06-25 | Returned |
+#### borrower_detail
+| borrower_id | borrower_name | borrower_address | borrower_phone | 
+|:-:|:-:|:-:|:-:|
+| 2001 | Michael John | USA | +92-300-453-6543 |
+| 2002 | Natasha Romanoff | Canada | +92-209-432-7943 | 
+| 2003 | Mike Jackson | USA | +92-311-873-3827 |
+| 2004 | Indiana Johns | Russia | +92-345-623-9293 |
+| 2005 | Camilia David | Germany | +92-307-432-4533 |
+|2006 | David Guetta | USA | +92-322-323-2321 | 
+| 2007 | Showbaz Shariff | Indiana | +92-344-422-3412 |
+#### ebook
+| ebook_title | ebook_price | ebook_publisher_name | ebook_author_name |
+|:-:|:-:|:-:|:-:|
+| Verity | 5$ | Pearson | Colleen Hoover | 
+| It Ends with Us | 16$ | Pearson | Colleen Hoover | 
+| Where the Crawdads Sing | 9$ | Penguin | Delia Owens | 
+| The Seven Husbands of Evelyn Hugo | 7$ | Penguin | Taylor Jenkins Reid | 
+| Ugly Love | 23$ | Hachette | James Clear |
+| Atomic Habits | 31$ | Hachette | James Clear | 
+| The Body Keeps the Score | 21$ | Harper Collins | Bessel van der Kolk |
+| Sparring Partners | 4$ | Macmillan | John Grisham |
 
 
 
