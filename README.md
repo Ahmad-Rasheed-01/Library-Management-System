@@ -20,6 +20,35 @@ role. So basically this helps the librarian to keep a record of books, borrowers
 | employee_name | Varchar (50) | None |
 | employee_address | Varchar(100) | None |
 | employee_phone | Varchar (50) | None |
+#### publisher
+| Attribute | Data type | Constraint |
+|:-:|:-:|:-:|
+| publisher_name | Varchar (100) | Primary key | 
+| publisher_address | Varchar (200) | None |
+| publisher_phone | Varchar (50) | None |
+| publisher_email | Varchar (50) | None |
+#### author
+| Attribute | Data Type | Constraint |
+|:-:|:-:|:-:|
+| author_name | Varchar (50) | Primary key | 
+| author_dob | Date | None |
+| author_nationality | Varchar (50) | None |
+#### book
+| Attribute | Data type | Constraint |
+| book_is | int | None |
+| book_title | Varchar(100) | None | 
+| book_price | Varchar (10) | None |
+| book_publish_year | Int | None|
+| book_publisher_name | Varchar (100) | Foreign Key|
+| author_name | Varchar (50) | Foreign Key |
+#### borrowing_detail
+| Attribute | Data type | Constraint |
+|:-:|:-:|:-:|
+| borrower_id | Int | Primary key | 
+| borrower_date | date | None |
+| return_date | date | None | 
+| return_status | Varchar (100) |None |
+
 
 ## Dumping Data
 #### staff
