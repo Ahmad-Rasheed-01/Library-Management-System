@@ -73,9 +73,9 @@ role. So basically this helps the librarian to keep a record of books, borrowers
 | ebook_publisher_phone | Varchar (50) | None |
 | ebook_publisher_email | Varchar(50) | None |
 
-
+<br>
 ## Dumping Data
-#### staff
+#### **staff**
 | employee_id | employee_name | employee_type |
 |:-:|:-:|:-:|
 | 1 | Viladmir Putin | Manager |
