@@ -6,8 +6,8 @@ This project is basically creating a database management system for the manageme
 the processes taking place using SQL. This model deals with the relationship between the books, borrower and borrowing details. The other entities play a supportive weak 
 role. So basically this helps the librarian to keep a record of books, borrowers along with their details.
 
-##Tables
-###Staff
+## Tables
+### Staff
 | Attribute | Data Type | Constraint |
 |:-:|:-:|:-:|
 | employee_id | Int | Primary key |
