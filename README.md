@@ -35,6 +35,7 @@ role. So basically this helps the librarian to keep a record of books, borrowers
 | author_nationality | Varchar (50) | None |
 #### book
 | Attribute | Data type | Constraint |
+|:-:|:-:|:-:|
 | book_is | int | None |
 | book_title | Varchar(100) | None | 
 | book_price | Varchar (10) | None |
