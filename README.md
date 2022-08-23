@@ -10,3 +10,6 @@ role. So basically this helps the librarian to keep a record of books, borrowers
 ###Staff
 | Attribute | Data Type | Constraint |
 |:-:|:-:|:-:|
+| employee_id | Int | Primary key |
+| employee_name | Varchar (50) | None |
+| employee_address | Varchar (50) | None |
