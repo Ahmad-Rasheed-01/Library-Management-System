@@ -7,9 +7,16 @@ the processes taking place using SQL. This model deals with the relationship bet
 role. So basically this helps the librarian to keep a record of books, borrowers along with their details.
 
 ## Tables
-#### Staff
+#### staff
 | Attribute | Data Type | Constraint |
 |:-:|:-:|:-:|
 | employee_id | Int | Primary key |
 | employee_name | Varchar (50) | None |
 | employee_address | Varchar (50) | None |
+#### employee_details
+| Attribute | Data Type | Constraint |
+|:-:|:-:|:-:|
+| employee_id | int | foreign key |
+| employee_name | Varchar (50) | None |
+| employee_address | Varchar(100) | None |
+| employee_phone | Varchar (50) | None |
