@@ -22,6 +22,7 @@ role. So basically this helps the librarian to keep a record of books, borrowers
 | employee_phone | Varchar (50) | None |
 
 ## Dumping Data
+#### staff
 | employee_id | employee_name | employee_type |
 |:-:|:-:|:-:|
 | 1 | Viladmir Putin | Manager |
